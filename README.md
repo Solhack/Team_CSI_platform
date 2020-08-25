@@ -129,3 +129,63 @@ ssh -p 2222 root@178.79.174.156
 password: "your public key password"
 
 "open says you"
+
+
+ssh -p 22333 sshackctf1@178.79.174.156
+sshackctf1@178.79.174.156's password: 
+Linux li311-156 4.19.0-10-amd64 #1 SMP Debian 4.19.132-1 (2020-07-24) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Aug 25 19:59:02 2020 from 197.185.107.130
+
+  _________                 .___     
+ /   _____/ ____   ____   __| _/____    _______________________________ 
+ \_____  \ /    \ /  _ \ / __ |/ __ \   ___  __ )__  ____/__  __/__    |
+ /        \   |  (  <_> ) /_/ \  ___/   __  __  |_  __/  __  /  __  /| |
+/_______  /___|  /\____/\____ |\___  >  _  /_/ /_  /___  _  /   _  ___ |
+        \/     \/            \/    \/   /_____/ /_____/  /_/    /_/  |_|
+          --------------------------------------
+
+
+root@li311-156ls -la
+*** Unknown syntax: ls -la
+root@li311-156sudo -i
+*** Unknown syntax: sudo -i
+root@li311-156echo
+*** Unknown syntax: echo
+root@li311-156echo Sol
+*** Unknown syntax: echo Sol
+root@li311-156mkdir Solomon 
+*** Unknown syntax: mkdir Solomon
+root@li311-156dir
+*** Unknown syntax: dir
+root@li311-156cat
+*** Unknown syntax: cat
+root@li311-156help
+
+Documented commands (type help <topic>):
+========================================
+exit  help  show  shutdown
+
+root@li311-156show
+Usage: show manual|license|tutorial|faq
+root@li311-156show manual 
+This is the default welcome page used to test the correct operation of the Apach
+e2 server after installation on Debian systems. If you can read this page, it me
+ans that the Apache HTTP server installed at this site is working properly. You 
+should replace this file (located at /var/www/html/index.html) before continuing
+ to operate your HTTP server.
+root@li311-156show tutorial
+Introduction
+The Apache HTTP server is the most widely-used web server in the world. It provi
+des many powerful features including dynamically loadable modules, robust media 
+support, and extensive integration with other popular software.
+
+In this guide, we’ll explain how to install an Apache web server on your Debian 
+10 server.
+
